@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>jQuery.getJSON demo</title>
+  <title>reddit</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
@@ -19,25 +19,11 @@
   </thead>
 
 </table>
- 
+<footer>
+  <p class="text-center">REDDIT and the ALIEN Logo are registered trademarks of reddit inc </p>
+</footer>
 <script src="js/jquery-2.1.3.min.js"></script>
 <script src="js/logic.js"></script>
-<!-- <script type="text/javascript">
-  $.getJSON( "https://www.reddit.com/.json", function( data ) {
-    var items = [];
-    $.each( data["data"]["children"], function(key, val ) {
-      console.log(val);
-      items.push( "<tr><td><a href='" + "https://www.reddit.com/" + val["data"]["permalink"] + "'>" + val["data"]["title"] + "</a></td></tr>" );
-      // items.push( "<td>" + val["data"]["author"] + "</td>" );
-      // items.push( "<td>" + "https://www.reddit.com/" + val["data"]["permalink"] + "</td>" );
-      // items.push( "<td>" + val["data"]["created_utc"] + "</td>" );
-    });
-    
-    $( "<tr/>", {
-      html: items.join( "" )
-    }).appendTo( "table" );
-  });
-</script>  -->
 <script type="js/bootstrap.min.js"></script>
 </body>
 </html>
